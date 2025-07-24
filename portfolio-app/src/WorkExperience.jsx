@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
 import {
-  SiPython, SiDotnet, SiMysql, SiPostman, SiReact, SiGit,
+ SiDotnet, SiMysql, SiPostman, SiReact, SiGit,
 } from "react-icons/si";
+import { DiCss3, DiHtml5, DiJavascript, DiVisualstudio } from "react-icons/di";
+
 
 const experiences = [
   {
@@ -9,7 +11,7 @@ const experiences = [
     company: "NCR Corporation Pvt. Ltd (NCR Voyix)",
     location: "India",
     duration: "January 2022 – July 2023",
-    tech: ["Python", ".NET Core", "SQL Server", "REST APIs", "Git", "Agile"],
+    tech: ["React", "C#" ,".NET Core", "SQL Server", "REST APIs", "Git"],
     logo: "/ncr_logo.jpg",
     responsibilities: [
       "Contributed to the modernization of Aloha Cloud, a leading hospitality software product, delivering comprehensive full-stack solutions across UI, API, and database layers.",
@@ -28,7 +30,7 @@ const experiences = [
     company: "The Sparks Foundation",
     location: "India",
     duration: "November 2020 – December 2020",
-    tech: ["Python", ".NET Core", "SQL Server", "REST APIs", "Git", "Agile"],
+    tech: ["JavaScript", "HTML", "CSS", "Git"],
     logo: "/sparks_logo.jpg",
     responsibilities: [
       "Developed a basic banking application using JavaScript, HTML, and CSS to demonstrate core banking functionalities such as balance inquiry, and fund transfer.",
@@ -83,12 +85,15 @@ function WorkExperience() {
             <div className="flex flex-wrap gap-2">
               {exp.tech.map((tech, i) => {
                 const icons = {
-                  Python: <SiPython />,
+                  React: <SiReact />,
+                  DiVisualstudio: <DiVisualstudio />,
                   ".NET Core": <SiDotnet />,
                   MySQL: <SiMysql />,
                   "REST APIs": <SiPostman />,
-                  React: <SiReact />,
                   Git: <SiGit />,
+                  CSS: <DiCss3 />,
+                  HTML: <DiHtml5 />,
+                  JavaScript: <DiJavascript />,
                 };
 
                 return (

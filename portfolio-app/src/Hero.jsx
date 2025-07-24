@@ -11,12 +11,11 @@ function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 font-medium tracking-wide">
-          Aspiring Junior Software Engineer | Full Stack Developer
+          Junior Software Engineer | Full Stack Developer
         </p>
 
         <p className="max-w-md text-gray-400 text-base md:text-lg leading-relaxed mx-auto md:mx-0">
-          I design and develop clean, scalable web applications using modern tech
-          stacks like React, Node.js, and Python. Let’s build something great together!
+          Crafting responsive, scalable websites using React, JavaScript, HTML/CSS, C# .NET, and SQL Server — eager to contribute and grow with impactful teams.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
