@@ -6,6 +6,22 @@ import { DiCss3, DiHtml5, DiJavascript, DiVisualstudio } from "react-icons/di";
 
 
 const experiences = [
+    {
+    role: "Software Developer",
+    company: "Marsh & McLennan",
+    location: "USA",
+    duration: "August 2024 – Present",
+    tech: ["React", "C#" ,"ASP.NET Core Web API", "REST APIs", "Git", "AWS"],
+    logo: "/marsh_logo.jpg",
+    responsibilities: [
+      "Collaborated with actuaries, business analysts, and engineering teams to build a Risk Analytics and Insurance Claims Optimization System. Led requirements gathering in agile sprints and contributed to the development of machine learning models and rule-based engines. Improved claim processing accuracy by 30% and reduced false claim approvals by 45%. ",
+      "Developed dynamic and responsive UI components using React and Redux, enabling real-time analytics dashboards and customized policy risk visualizations. Conducted A/B testing to refine user workflows, improving usability and reducing agent response time. ",
+      "Managed AWS-hosted data infrastructure, including Amazon RDS (SQL Server) and DynamoDB, to store client risk profiles and historical claims. Improved data pipelines and applied encryption at rest and IAM policies to ensure compliance with HIPAA and SOX standards. ",
+      "Designed and implemented backend microservices using C# and ASP.NET Core Web API, supporting modules for policy validation, claims processing, and real-time risk scoring. Integrated Apache Kafka for asynchronous messaging and deployed predictive models using ONNX Runtime to ensure sub-second API response times and 99.9% uptime. ",
+      "Created robust test coverage with xUnit and Moq for unit and integration testing. Automated build and deployment workflows using AWS CodePipeline and CodeBuild, improving deployment speed by 35% and reaching 85% test coverage. ",
+      "Partnered with DevOps to manage cloud infrastructure using AWS ECS, Lambda, and CloudFormation. Used logging, metrics, and alerting via AWS CloudWatch, achieving 99.99% system availability and ensuring smooth deployment of new analytics capabilities across global business units. ",
+    ]
+  },
   {
     role: "Software Engineer I",
     company: "NCR Corporation Pvt. Ltd (NCR Voyix)",

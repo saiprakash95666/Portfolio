@@ -12,10 +12,12 @@ const About = () => {
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <div>
           <p className="text-lg text-gray-300 mb-6">
-            I am a passionate and detail-oriented Full Stack Developer with a Master’s in Computer Science from the
-             University of Central Missouri. I bring over 1.7 years of hands-on experience, including 1.5 years as a 
-             Software Engineer at NCR Voyix and a 2-month Web Development Internship at The Sparks Foundation. 
-             I love building scalable web applications and continuously strive to expand my technical expertise.
+            I am a passionate and detail-oriented Full Stack Developer with a Master’s in Computer Science from
+             the University of Central Missouri. I bring over 3 years of hands-on experience, currently working 
+             as a Software Developer at Marsh & McLennan since August 2024. Previously, I worked 
+             as a Software Engineer I at NCR Voyix for 1.5 years and completed a Web Development Internship at 
+             The Sparks Foundation. I love building scalable, user-focused web applications and continuously 
+             strive to expand my technical expertise while delivering impactful solutions.
           </p>
           <h3 className="text-2xl font-semibold mb-4 text-pink-500">Education</h3>
           <ul className="text-gray-300 mb-6 list-disc list-inside space-y-3">
