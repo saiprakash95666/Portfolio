@@ -8,7 +8,27 @@ const Projects = () => {
         <p className="text-gray-400">A curated collection of what I’ve built, solved, and scaled.</p>
       </div>
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
-        {/* Project 1 - CraveKart */}
+        {/* Multi Agent AI Project*/}
+        <div className="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700">
+          <h3 className="text-2xl font-semibold mb-2"> Multi-Agent AI Bedtime Story Generator (LLMs, GPT-3.5) </h3>
+          <p className="text-gray-400 mb-4">
+            Designed and implemented a multi-agent AI system to generate age-appropriate bedtime stories for
+            children aged 5–10 using GPT-3.5-turbo.
+          </p>
+          <p className="text-sm text-pink-400 mb-4">Python · FastAPI · Openlit · LLM</p>
+          <div className="flex gap-4">  
+            <a
+              href="https://github.com/saiprakash95666/multi-agent-ai-story-generator"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-pink-500 transition"
+              title="GitHub Repo"
+            >
+              <FaGithub size={24} />
+            </a>
+          </div>
+        </div>
+        {/* Project CraveKart */}
         <div className="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700">
           <h3 className="text-2xl font-semibold mb-2">CraveKart</h3>
           <p className="text-gray-400 mb-4">

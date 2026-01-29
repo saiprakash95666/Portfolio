@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt, FaAws, FaJava } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt, FaAws, FaJava, FaBrain, FaDocker } from 'react-icons/fa';
 import { SiTailwindcss, SiDotnet, SiTypescript, SiSqlite, SiPostman } from 'react-icons/si';
 import { DiMsqlServer, DiDjango } from "react-icons/di";
 
@@ -13,7 +13,7 @@ const About = () => {
         <div>
           <p className="text-lg text-gray-300 mb-6">
             I am a passionate and detail-oriented Full Stack Developer with a Master’s in Computer Science from
-             the University of Central Missouri. I bring over 3 years of hands-on experience, currently working 
+             the University of Central Missouri. I bring over 3+ years of hands-on experience, currently working 
              as a Software Developer at Marsh & McLennan since August 2024. Previously, I worked 
              as a Software Engineer I at NCR Voyix for 1.5 years and completed a Web Development Internship at 
              The Sparks Foundation. I love building scalable, user-focused web applications and continuously 
@@ -37,7 +37,7 @@ const About = () => {
         </div>
         <div>
           <h3 className="text-2xl font-semibold mb-4 text-pink-500">Skills</h3>
-          <div className="grid grid-cols-4 gap-6 text-4xl text-white">
+          <div className="grid grid-cols-5 gap-5 text-4xl text-white">
             <div><FaHtml5 title="HTML5" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">HTML5</span></div>
             <div><FaCss3Alt title="CSS3" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">CSS3</span></div>
             <div><FaJs title="JavaScript" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">JavaScript</span></div>
@@ -54,6 +54,8 @@ const About = () => {
             <div><SiTypescript title="TypeScript" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">TypeScript</span></div>
             <div><DiDjango title="Django" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">Django</span></div>
             <div><SiPostman title="Postman API" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">Postman</span></div>
+            <div><FaBrain title="AI&ML" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">AI & ML</span></div>
+            <div><FaDocker title="Docker" className="hover:text-pink-500 transition" /><span className="mt-1 text-sm">Docker</span></div>
 
           </div>
         </div>
