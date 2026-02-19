@@ -1,25 +1,27 @@
 import { motion } from 'framer-motion';
 import {
- SiDotnet, SiMysql, SiPostman, SiReact, SiGit,
+  SiDotnet, SiMysql, SiPostman, SiReact, SiGit,
 } from "react-icons/si";
 import { DiCss3, DiHtml5, DiJavascript, DiVisualstudio } from "react-icons/di";
 
 
 const experiences = [
-    {
-    role: "Software Developer",
+  {
+    role: "Software Engineer",
     company: "Marsh & McLennan",
     location: "USA",
     duration: "August 2024 – Present",
-    tech: ["React", "C#" ,"ASP.NET Core Web API", "REST APIs", "Git", "AWS"],
+    tech: ["React", "C#", "ASP.NET Core Web API", "REST APIs", "Git", "AWS"],
     logo: "/marsh_logo.jpg",
     responsibilities: [
-      "Collaborated with actuaries, business analysts, and engineering teams to build a Risk Analytics and Insurance Claims Optimization System. Led requirements gathering in agile sprints and contributed to the development of machine learning models and rule-based engines. Improved claim processing accuracy by 30% and reduced false claim approvals by 45%. ",
-      "Developed dynamic and responsive UI components using React and Redux, enabling real-time analytics dashboards and customized policy risk visualizations. Conducted A/B testing to refine user workflows, improving usability and reducing agent response time. ",
-      "Managed AWS-hosted data infrastructure, including Amazon RDS (SQL Server) and DynamoDB, to store client risk profiles and historical claims. Improved data pipelines and applied encryption at rest and IAM policies to ensure compliance with HIPAA and SOX standards. ",
-      "Designed and implemented backend microservices using C# and ASP.NET Core Web API, supporting modules for policy validation, claims processing, and real-time risk scoring. Integrated Apache Kafka for asynchronous messaging and deployed predictive models using ONNX Runtime to ensure sub-second API response times and 99.9% uptime. ",
-      "Created robust test coverage with xUnit and Moq for unit and integration testing. Automated build and deployment workflows using AWS CodePipeline and CodeBuild, improving deployment speed by 35% and reaching 85% test coverage. ",
-      "Partnered with DevOps to manage cloud infrastructure using AWS ECS, Lambda, and CloudFormation. Used logging, metrics, and alerting via AWS CloudWatch, achieving 99.99% system availability and ensuring smooth deployment of new analytics capabilities across global business units. ",
+      "Contributed to the full software development lifecycle of a cloud-native Risk Analytics and Insurance Claims Optimization platform spanning design, development, testing, and deployment.",
+      "Designed and implemented backend microservices using C# and ASP.NET Core with SQL Server for policy validation, claims processing, and real-time risk scoring.",
+      "Built and maintained CI/CD pipelines using Docker and Azure DevOps Pipelines, reducing deployment time by 35% and enabling reliable, repeatable automated deployments.",
+      "Managed cloud infrastructure on Microsoft Azure using Azure Container Apps / AKS, Azure Functions, and ARM Templates / Bicep.",
+      "Integrated Apache Kafka for asynchronous, event-driven communication between distributed microservices.",
+      "Implemented secure data access patterns using IAM, encryption at rest, and role-based authorization (RBAC) to satisfy HIPAA and SOX compliance requirements.",
+      "Developed unit and integration tests using xUnit and Moq, achieving 85% automated test coverage.",
+      "Established monitoring, logging, and alerting via Azure Monitor / Application Insights to proactively detect and resolve incidents, supporting application health and reliability.",
     ]
   },
   {
@@ -27,18 +29,15 @@ const experiences = [
     company: "NCR Corporation Pvt. Ltd (NCR Voyix)",
     location: "India",
     duration: "January 2022 – July 2023",
-    tech: ["React", "C#" ,".NET Core", "SQL Server", "REST APIs", "Git"],
+    tech: ["React", "C#", ".NET Core", "SQL Server", "REST APIs", "Git"],
     logo: "/ncr_logo.jpg",
     responsibilities: [
-      "Contributed to the modernization of Aloha Cloud, a leading hospitality software product, delivering comprehensive full-stack solutions across UI, API, and database layers.",
-      "Spearheaded the migration and revamp of a legacy Ext JS and .NET Core Web API system to a modern ReactJS application, achieving a 50% improvement in performance, scalability, and user experience.",
-      "Designed and developed a library of reusable React components, significantly reducing development time and enhancing code maintainability across new and existing systems.",
-      "Proactively identified and resolved critical code bottlenecks and inefficiencies, boosting overall software performance by 30%.",
-      "Engineered robust, scalable, and API-centric architectures, enabling seamless integrations and future-proofing the platform.",
-      "Optimized complex database queries using LINQ and SQL Server, achieving approximately 50% faster and more efficient data retrieval.",
-      "Applied Test-Driven Development (TDD) methodologies rigorously, ensuring high code reliability and significantly reducing bug rates through comprehensive automated and functional testing coverage.",
-      "Actively participated in Agile development practices, including daily stand-ups, sprint planning, reviews, and retrospectives, fostering strong team collaboration.",
-      "Contributed to successful software releases, encompassing new version deployments, feature enhancements, and critical bug fixes, ensuring product stability and continuous improvement.",
+      "Participated in full-stack development efforts to modernize the Aloha Cloud hospitality platform, delivering enhancements across UI, API, and database layers in an Agile/Scrum environment.",
+      "Migrated legacy Ext JS and C# ASP.NET systems to modern React with TypeScript and ASP.NET Core services, improving application performance and scalability by 50%.",
+      "Developed reusable React components and API-first backend services to improve UI consistency and enable third-party integrations.",
+      "Optimized SQL Server queries and LINQ-based data access patterns, reducing data retrieval latency by 50%.",
+      "Implemented comprehensive test coverage using Jest (unit) and Playwright (E2E), achieving 80%+ coverage and reducing UI bugs by 60%.",
+      "Actively participated in code reviews, sprint planning, root cause analysis, and production releases; contributed to documentation and team knowledge sharing."
     ]
   },
   {
@@ -91,12 +90,12 @@ function WorkExperience() {
 
             {/* Scrollable responsibilities list */}
             <div className="overflow-y-auto pr-2 mb-3 scroll-hide" style={{ maxHeight: '12rem' }}>
-            <ul className="list-disc list-outside ml-5 text-gray-300 space-y-1 text-sm leading-relaxed">
-              {exp.responsibilities.map((task, i) => (
-                <li key={i}>{task}</li>
-              ))}
-            </ul>
-      </div>
+              <ul className="list-disc list-outside ml-5 text-gray-300 space-y-1 text-sm leading-relaxed">
+                {exp.responsibilities.map((task, i) => (
+                  <li key={i}>{task}</li>
+                ))}
+              </ul>
+            </div>
             {/* Tech stack chips with icons */}
             <div className="flex flex-wrap gap-2">
               {exp.tech.map((tech, i) => {
