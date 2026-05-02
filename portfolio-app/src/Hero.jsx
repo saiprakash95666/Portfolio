@@ -29,13 +29,13 @@ function Hero() {
         </p>
 
         <p className="max-w-md text-gray-400 text-base md:text-lg leading-relaxed mx-auto md:mx-0">
-          Building scalable, high-performance full-stack applications with React, .NET, SQL and Azure while integrating AI & LLM-powered
+          Building scalable, high-performance full-stack applications with React, .NET, SQL and AWS while integrating AI & LLM-powered
           features to deliver meaningful, real-world solutions.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
           <a
-            href="/Kurmathi_SaiPrakash_Resume.pdf"
+            href="/KurmathiSaiPrakash_Reddy_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:scale-105 transition-transform"
@@ -72,7 +72,7 @@ function Hero() {
             <FaGithub />
           </a>
           <a
-            href="mailto:kurmathi@jobhuntmails.com"
+            href="mailto:saiprakash95666@gmail.com"
             aria-label="Email"
             title="Email"
             className="hover:text-pink-300 transition"

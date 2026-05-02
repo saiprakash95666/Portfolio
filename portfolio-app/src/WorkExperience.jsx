@@ -7,10 +7,25 @@ import { DiCss3, DiHtml5, DiJavascript, DiVisualstudio } from "react-icons/di";
 
 const experiences = [
   {
-    role: "Software Engineer",
+    role: "Software Engineer II",
+    company: "Redwood Software",
+    location: "India",
+    duration: "April 2026 – Present",
+    tech: ["C++", "C#", "Java", "SQL Server", "REST APIs", "Git", "CI/CD"],
+    logo: "/Redwood_Software_Logo.jpg",
+    responsibilities: [
+      "Participated in full-stack development efforts in workflow automation project, delivering enhancements across components, API, and database layers in an Agile/Scrum environment.",
+      "Optimized SQL Server queries and LINQ-based data access patterns, reducing data retrieval latency by 50%.",
+      "Implemented comprehensive test coverage using Jest (unit) and Playwright (E2E), achieving 80%+ coverage and reducing bugs by 60%.",
+      "Actively participated in code reviews, sprint planning, root cause analysis, and production releases.",
+      "contributed to documentation and team knowledge sharing."
+    ]
+  },
+  {
+    role: "Software Engineer - Intern",
     company: "Marsh & McLennan",
     location: "USA",
-    duration: "August 2024 – Present",
+    duration: "August 2025 – February 2026",
     tech: ["React", "C#", "ASP.NET Core Web API", "REST APIs", "Git", "AWS"],
     logo: "/marsh_logo.jpg",
     responsibilities: [
@@ -19,7 +34,6 @@ const experiences = [
       "Built and maintained CI/CD pipelines using Docker and Azure DevOps Pipelines, reducing deployment time by 35% and enabling reliable, repeatable automated deployments.",
       "Managed cloud infrastructure on Microsoft Azure using Azure Container Apps / AKS, Azure Functions, and ARM Templates / Bicep.",
       "Integrated Apache Kafka for asynchronous, event-driven communication between distributed microservices.",
-      "Implemented secure data access patterns using IAM, encryption at rest, and role-based authorization (RBAC) to satisfy HIPAA and SOX compliance requirements.",
       "Developed unit and integration tests using xUnit and Moq, achieving 85% automated test coverage.",
       "Established monitoring, logging, and alerting via Azure Monitor / Application Insights to proactively detect and resolve incidents, supporting application health and reliability.",
     ]
